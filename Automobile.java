@@ -15,7 +15,8 @@ public class Automobile {
 	}
 	public String toString()
 	{
-		return String.format("\nThis car has\nDoor: %d\nCylinders: %d\nTransmition: %d\nName: %s", doors, cylinders, trans, name);
+		return String.format("\nCar Attributes..\nDoors: %d\nCylinders: %d\nTransmition: %d\nName: %s", 
+			doors, cylinders, trans, name);
 	}
 
 }
