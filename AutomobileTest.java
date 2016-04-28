@@ -10,8 +10,8 @@ public class AutomobileTest {
 		Automobile automobile3 = new Automobile(5,6,5, "Vany");
 		
 		JOptionPane.showMessageDialog(null, "-Automobile1 Attributes- "+automobile1);
-		JOptionPane.showMessageDialog(null, "-Automobile2 Attributes- "+automobile1);
-		JOptionPane.showMessageDialog(null, "-Automobile3 Attributes- "+automobile1);
+		JOptionPane.showMessageDialog(null, "-Automobile2 Attributes- "+automobile2);
+		JOptionPane.showMessageDialog(null, "-Automobile3 Attributes- "+automobile3);
 	}
 
 }
