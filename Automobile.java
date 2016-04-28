@@ -5,12 +5,17 @@ public class Automobile {
 	private int cylinders;
 	private int trans;
 	private String name;
+	private String color;
 	
-	public Automobile (int doors, int cylinders, int trans, String name)
+	public Automobile (String color, int doors, int cylinders, int trans)
 	{
 		this.doors = doors;
 		this.cylinders = cylinders;
 		this.trans = trans;
+		this.name = name;
+	}
+	public void setName(String name)
+	{	
 		this.name = name;
 	}
 	public String toString()

@@ -5,12 +5,17 @@ public class AutomobileTest {
 
 	public static void main(String[] args) {
 		
-		Automobile automobile1 = new Automobile(4,6,6, "Cabbie");
-		Automobile automobile2 = new Automobile(2,6,6, "Sporty");
-		Automobile automobile3 = new Automobile(5,6,5, "Vany");
+		Automobile automobile1 = new Automobile("Yellow", 4, 6,6);
+		Automobile automobile2 = new Automobile("Red", 2, 6,6);
+		Automobile automobile3 = new Automobile("Green", 5, 6,6);
 		
+		automobile1.setName("Cabbie");
 		JOptionPane.showMessageDialog(null, "-Automobile1 Attributes- "+automobile1);
+		
+		automobile2.setName("Sporty");
 		JOptionPane.showMessageDialog(null, "-Automobile2 Attributes- "+automobile2);
+		
+		automobile3.setName("Vany");
 		JOptionPane.showMessageDialog(null, "-Automobile3 Attributes- "+automobile3);
 	}
 
