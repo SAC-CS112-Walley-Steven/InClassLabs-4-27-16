@@ -7,11 +7,12 @@ public class Automobile {
 	private String name;
 	private String color;
 	
-	public Automobile (String color, int doors, int cylinders, int trans)
+	public Automobile (String name, String color, int doors, int cylinders, int trans)
 	{
 		this.doors = doors;
 		this.cylinders = cylinders;
 		this.trans = trans;
+		this.name = name;
 		this.color = color;
 	}
 	public void setName(String name)
