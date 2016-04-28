@@ -7,4 +7,9 @@ public class Dice {
 		return randNum;
 	}
 
+	public static int Throw(int dices, int bounces)
+	{
+		int randNum = (dices*(1+(int)(Math.random()*6)))+bounces;
+		return randNum;
+	}
 }

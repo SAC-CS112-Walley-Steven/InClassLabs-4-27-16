@@ -6,7 +6,8 @@ public class DiceTest {
 		
 		Scanner input = new Scanner (System.in);
 		
-		System.out.println(Dice.OneThrow());
+		
+		System.out.println(Dice.Throw(2,3));
 		
 
 	}
