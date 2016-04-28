@@ -12,7 +12,7 @@ public class Automobile {
 		this.doors = doors;
 		this.cylinders = cylinders;
 		this.trans = trans;
-		this.name = name;
+		this.color = color;
 	}
 	public void setName(String name)
 	{	
